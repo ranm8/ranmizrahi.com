@@ -61,6 +61,7 @@
        * uncomment to apply the react environment on all components.
        **/
       "ranm8.website/envs/ranmizrahi-react": {}
+      // "teambit.react/react": {}
     },
     "{envs/*},{apps/*}": {
       "teambit.harmony/aspect": {}
