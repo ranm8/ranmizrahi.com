@@ -5,6 +5,7 @@
     "strict": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "types": ["./types/mdx.d.ts", "./types/css.d.ts"],
     "emitDeclarationOnly": false
   }
 }
