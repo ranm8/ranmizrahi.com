@@ -1,4 +1,4 @@
 declare module '*.mdx' {
-  const classes: { readonly [key: string]: string };
+  const classes: any;
   export default classes;
 }

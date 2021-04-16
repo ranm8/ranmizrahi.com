@@ -11,7 +11,9 @@ export class RanmizrahiReactMain {
   static dependencies = [ReactAspect, EnvsAspect];
 
   static async provider([react, envs]: [ReactMain, EnvsMain]) {
-    const ranReactEnv = envs.compose(react.reactEnv, []);
+    const ranReactEnv = envs.compose(react.reactEnv, [
+      react.useMdx()
+    ]);
     envs.registerEnv(ranReactEnv);
     return new RanmizrahiReactMain();
   }

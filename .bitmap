@@ -49,11 +49,17 @@
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/pages/post"
     },
+    "ui/posts/why-build-with-bit": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.website/posts/why-build-with-bit"
+    },
     "ui/social-bar": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/social-bar"
     },
-    "version": "1.0.56"
+    "version": "1.0.61"
 }

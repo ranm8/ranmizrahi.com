@@ -1,4 +1,5 @@
 import React from 'react';
+import { MDXLayout } from '@teambit/ui.mdx-layout';
 
 export type PostProps = {
   /**
@@ -9,8 +10,8 @@ export type PostProps = {
 
 export function Post({ text }: PostProps) {
   return (
-    <div>
+    <MDXLayout>
       {text}
-    </div>
+    </MDXLayout>
   );
 }

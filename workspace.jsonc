@@ -42,6 +42,7 @@
         "@teambit/base-ui.text.paragraph": "0.6.9",
         "@teambit/design.theme.theme-context": "0.0.4",
         "@teambit/design.ui.heading": "0.0.11",
+        "@teambit/ui.mdx-layout": "0.0.344",
         "@teambit/ui.react-router.link": "0.0.344",
         "@testing-library/react": "11.2.6",
         "@types/jest": "26.0.22",
