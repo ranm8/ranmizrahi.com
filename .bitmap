@@ -19,6 +19,12 @@
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/header"
     },
+    "ui/link": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.website/ui/link"
+    },
     "ui/nav-bar": {
         "scope": "",
         "version": "",

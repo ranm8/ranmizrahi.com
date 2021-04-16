@@ -1,0 +1,21 @@
+
+.header {
+  position: relative;
+  padding: 0 4px;
+  margin-bottom: 50px;
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    color: #7a7a7a;
+    font-style: italic;
+  }
+}
+
+.navbar {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

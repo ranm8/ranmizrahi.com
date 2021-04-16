@@ -2,5 +2,5 @@ import React from 'react';
 import { Header } from './header';
 
 export const BasicHeader = () => (
-  <Header>hi there</Header>
-);  
+  <Header title="Someone's blog" description="Thoughts on architecture and design" />
+);

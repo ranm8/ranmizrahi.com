@@ -1,0 +1,18 @@
+---
+labels: ['react', 'typescript', 'link', 'react-router']
+description: 'A Link component.'
+---
+
+import { Link } from './link';
+import { MemoryRouter } from 'react-router';
+
+A react-router based `Link` component. Can be used to link to internal and external route in a React Router context.
+This component must be rendered in a router context.
+
+## A simple Link to about page.
+
+```js live
+<MemoryRouter>
+  <Link href="/about">About</Link>
+</MemoryRouter>
+```

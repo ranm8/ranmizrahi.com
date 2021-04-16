@@ -1,16 +1,16 @@
 import React from 'react';
+import classNames from 'classnames';
+import { Link } from '@ranm8/website.ui.link';
+import styles from './nav-bar.module.scss';
 
 export type NavBarProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
+  className?: string;
 };
 
-export function NavBar({ text }: NavBarProps) {
+export function NavBar({ className }: NavBarProps) {
   return (
-    <div>
-      {text}
-    </div>
+    <ul className={classNames(className, styles.navbar)}>
+      <li><Link href="/about">About</Link></li>
+    </ul>
   );
 }
