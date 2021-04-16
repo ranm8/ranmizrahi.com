@@ -43,6 +43,12 @@
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/pages/homepage"
     },
+    "ui/pages/post": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.website/ui/pages/post"
+    },
     "ui/social-bar": {
         "scope": "",
         "version": "",
