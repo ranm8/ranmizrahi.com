@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
+import { Helmet } from 'react-helmet';
 
 export type AboutProps = {
-  /**
-   * a text to be rendered in the component.
-   */
-  text: string
+  children: ReactNode
 };
 
-export function About({ text }: AboutProps) {
+export function About({ children }: AboutProps) {
   return (
     <div>
-      {text}
+      <Helmet>
+        <title>About</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+      {children}
     </div>
   );
 }

@@ -24,6 +24,7 @@
      **/
     "defaultScope": "ranm8.website"
   },
+  "ranm8.website/apps/ranmizrahi": {},
   /**
    * main configuration for component dependency resolution.
    **/
@@ -36,10 +37,21 @@
       "dependencies": {
         "@mdx-js/loader": "1.6.22",
         "@teambit/base-ui.elements.image": "0.6.8",
+        "@teambit/base-ui.layout.align": "0.6.8",
         "@teambit/design.theme.theme-context": "0.0.4",
+        "@teambit/design.ui.heading": "0.0.11",
         "@testing-library/react": "11.2.6",
+        "@types/jest": "26.0.22",
+        "@types/react-dom": "17.0.3",
+        "@types/react-helmet": "6.1.1",
         "@types/react-router": "5.1.13",
-        "react-router": "5.2.0"
+        "@types/react-router-dom": "5.1.7",
+        "classnames": "2.3.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-helmet": "6.1.0",
+        "react-router": "5.2.0",
+        "react-router-dom": "5.2.0"
       },
       "peerDependencies": {}
     },

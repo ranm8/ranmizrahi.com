@@ -43,5 +43,5 @@
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/social-bar"
     },
-    "version": "1.0.53"
+    "version": "1.0.56"
 }
