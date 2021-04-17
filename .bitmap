@@ -49,6 +49,12 @@
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/pages/post"
     },
+    "ui/posts/about-ran": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.website/posts/about-ran"
+    },
     "ui/posts/why-build-with-bit": {
         "scope": "",
         "version": "",

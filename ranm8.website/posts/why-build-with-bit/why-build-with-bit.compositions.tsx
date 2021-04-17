@@ -6,6 +6,6 @@ export const BasicRender = () => {
   return (
     <MDXLayout>
       <WhyBuiltWithBit />
-    </MDXLayout>
+    </MDXLayout>      
   );
 };

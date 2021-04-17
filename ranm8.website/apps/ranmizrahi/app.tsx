@@ -1,6 +1,6 @@
 import React from 'react';
 import { Homepage } from '@ranm8/website.ui.pages.homepage';
-import { About } from '@ranm8/website.ui.pages.about';
+import { AboutRan } from '@ranm8/website.ui.posts.about-ran';
 import { Header } from '@ranm8/website.ui.header';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeContext } from '@teambit/design.theme.theme-context';
@@ -17,9 +17,9 @@ export function RanMizrahiApp() {
         <Switch>
           <Route path="/" exact>
             <Homepage />
-          </Route>        
+          </Route>
           <Route path="/about">
-            <About>about page</About>
+            <AboutRan />
           </Route>
         </Switch>
       </BrowserRouter>
