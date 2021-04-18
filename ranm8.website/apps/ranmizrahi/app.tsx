@@ -1,6 +1,6 @@
 import React from 'react';
 import { Homepage } from '@ranm8/website.ui.pages.homepage';
-import { AboutRan } from '@ranm8/website.ui.posts.about-ran';
+import { AboutRan } from '@ranm8/website.posts.about-ran';
 import { Header } from '@ranm8/website.ui.header';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeContext } from '@teambit/design.theme.theme-context';

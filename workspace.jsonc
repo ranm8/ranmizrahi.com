@@ -71,6 +71,9 @@
    * new set of dependencies.
    **/
   "teambit.workspace/variants": {
+    /**
+     * use the MDX environment for building MDX components.
+    **/
     "{posts/*}": {
       "teambit.mdx/mdx": {}
     },
