@@ -1,6 +1,6 @@
 import React from 'react';
 import { Post } from './post';
 
-export const BasicPost = () => (
-  <Post text="hello from Post" />
-);
+export const BasicPost = () => {
+  return <Post text="hello from Post" />;
+};

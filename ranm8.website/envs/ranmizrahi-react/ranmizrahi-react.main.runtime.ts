@@ -11,7 +11,13 @@ export class RanmizrahiReactMain {
   static dependencies = [ReactAspect, EnvsAspect];
 
   static async provider([react, envs]: [ReactMain, EnvsMain]) {
-    const ranReactEnv = envs.compose(react.reactEnv, []);
+    const ranReactEnv = envs.compose(react.reactEnv, [
+      react.overrideDependencies({
+        devDependencies: {
+          "@types/react": "17.0.3"
+        }
+      })
+    ]);
     envs.registerEnv(ranReactEnv);
     return new RanmizrahiReactMain();
   }

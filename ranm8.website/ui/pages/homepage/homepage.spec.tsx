@@ -5,7 +5,7 @@ import { BasicHomepage } from './homepage.composition';
 describe('homepage', () => {
   it('should render with the correct text', () => {
     const { getByText } = render(<BasicHomepage />);
-    const rendered = getByText('hello from Homepage');
+    const rendered = getByText('homepage');
     expect(rendered).toBeTruthy();
   });
 });
