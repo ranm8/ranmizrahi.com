@@ -71,6 +71,9 @@
    * new set of dependencies.
    **/
   "teambit.workspace/variants": {
+    "{posts/*}": {
+      "teambit.mdx/mdx": {}
+    },
     /**
      * "*" is a special rule which applied on all components in the workspace.
      **/
