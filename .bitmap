@@ -13,6 +13,18 @@
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/envs/ranmizrahi-react"
     },
+    "posts/about-ran": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.website/posts/about-ran"
+    },
+    "posts/why-build-with-bit": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.website/posts/why-build-with-bit"
+    },
     "ui/header": {
         "scope": "",
         "version": "",
@@ -48,18 +60,6 @@
         "version": "",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/pages/post"
-    },
-    "posts/about-ran": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "ranm8.website/posts/about-ran"
-    },
-    "posts/why-build-with-bit": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "ranm8.website/posts/why-build-with-bit"
     },
     "ui/social-bar": {
         "scope": "",
