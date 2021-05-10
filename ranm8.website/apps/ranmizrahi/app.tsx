@@ -3,7 +3,7 @@ import { Homepage } from '@ranm8/website.ui.pages.homepage';
 import { AboutRan } from '@ranm8/website.posts.about-ran';
 import { Header } from '@ranm8/website.ui.header';
 import { BrowserRouter } from 'react-router-dom';
-import { ThemeContext } from '@teambit/design.theme.theme-context';
+import { ThemeContext } from '@ranm8/design.theme.theme-context';
 import { Switch, Route } from 'react-router';
 
 export function RanMizrahiApp() {

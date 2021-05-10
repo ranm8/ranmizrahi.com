@@ -6,6 +6,7 @@ export class RanmizrahiMain {
   static slots = [];
   static dependencies = [ReactAspect];
   static runtime = MainRuntime;
+  
   static async provider([react]: [ReactMain]) {
     react.registerReactApp({
       name: 'ranmizrahi.com',

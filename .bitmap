@@ -2,70 +2,82 @@
 
 {
     "apps/ranmizrahi": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.11",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/apps/ranmizrahi"
     },
     "envs/ranmizrahi-react": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/envs/ranmizrahi-react"
     },
     "posts/about-ran": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.4",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/posts/about-ran"
     },
     "posts/why-build-with-bit": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/posts/why-build-with-bit"
     },
+    "theme/icon-font": {
+        "scope": "ranm8.design",
+        "version": "1.0.0",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.design/theme/icon-font"
+    },
+    "theme/theme-context": {
+        "scope": "ranm8.design",
+        "version": "1.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "ranm8.design/theme/theme-context"
+    },
     "ui/header": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.11",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/header"
     },
     "ui/link": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.13",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/link"
     },
     "ui/nav-bar": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.10",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/nav-bar"
     },
     "ui/pages/about": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/pages/about"
     },
     "ui/pages/homepage": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/pages/homepage"
     },
     "ui/pages/post": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/pages/post"
     },
     "ui/social-bar": {
-        "scope": "",
-        "version": "",
+        "scope": "ranm8.website",
+        "version": "1.0.1",
         "mainFile": "index.ts",
         "rootDir": "ranm8.website/ui/social-bar"
     },
-    "version": "1.0.61"
+    "version": "1.0.78"
 }

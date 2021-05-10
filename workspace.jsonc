@@ -25,6 +25,7 @@
     "defaultScope": "ranm8.website"
   },
   "ranm8.website/apps/ranmizrahi": {},
+
   /**
    * main configuration for component dependency resolution.
    **/
@@ -40,8 +41,8 @@
         "@teambit/base-ui.layout.align": "0.6.8",
         "@teambit/base-ui.text.heading": "0.6.8",
         "@teambit/base-ui.text.paragraph": "0.6.9",
-        "@teambit/design.theme.theme-context": "0.0.4",
-        "@teambit/design.ui.heading": "0.0.11",
+        "@teambit/base-ui.theme.fonts.roboto": "0.6.8",
+        "@teambit/base-ui.theme.theme-provider": "0.6.9",
         "@teambit/ui.mdx-layout": "0.0.344",
         "@teambit/ui.react-router.link": "0.0.344",
         "@testing-library/react": "11.2.6",
@@ -55,7 +56,8 @@
         "react-dom": "17.0.2",
         "react-helmet": "6.1.0",
         "react-router": "5.2.0",
-        "react-router-dom": "5.2.0"
+        "react-router-dom": "5.2.0",
+        "reset-css": "5.0.1"
       },
       "peerDependencies": {
         "react": "17.0.1",
@@ -80,6 +82,10 @@
     "{posts/*}": {
       "teambit.mdx/mdx": {}
     },
+    "ranm8.design": {
+      "defaultScope": "ranm8.design",
+      "teambit.react/react": {}
+    },
     /**
      * "*" is a special rule which applied on all components in the workspace.
      **/
@@ -90,7 +96,7 @@
       "ranm8.website/envs/ranmizrahi-react": {}
       // "teambit.react/react": {}
     },
-    "{envs/*},{apps/*}": {
+    "{envs/*},{apps/*},{aspects/*}": {
       "teambit.harmony/aspect": {}
     }
   }
